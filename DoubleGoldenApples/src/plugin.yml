@@ -1,0 +1,9 @@
+name: DoubleGoldenApples
+version: 1.0
+author: Marti201
+main: me.marti201.doublegoldenapples.DoubleGoldenApples
+commands:
+  givedoubleapple:
+    usage: /givedoubleapple [amount] [player]
+    description: Gives Double Golden Apples
+    aliases: giveda
