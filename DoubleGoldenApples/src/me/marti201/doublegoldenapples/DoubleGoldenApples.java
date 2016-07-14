@@ -72,8 +72,8 @@ public class DoubleGoldenApples extends JavaPlugin implements Listener, CommandE
 
 			player.getInventory().addItem(is);
 
-			sender.sendMessage((isPlayer ? ChatColor.GOLD : "") + "Giving " + player.getName() + " " + amount
-					+ " Double Golden Apple" + ((amount > 1) ? "s." : "."));
+			sender.sendMessage((isPlayer ? ChatColor.GOLD : "") + "Giving " + amount + " Double Golden Apple"
+					+ ((amount > 1) ? "s " : " ") + "to " + player.getName() + ".");
 
 		} else
 			sender.sendMessage("Please specify the player");
